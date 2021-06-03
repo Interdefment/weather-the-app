@@ -1,0 +1,25 @@
+.CityPage {
+	padding-top: 2rem;
+	position: relative;
+}
+.CityPage_title {
+	margin-right: 36px;
+}
+.CityPage_loaderContainer {
+	padding: 3rem;
+}
+.CityPage_deleteButton {
+	position: absolute;
+	top: 2rem;
+	right: 1rem;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	fill: #222222;
+}
+.CityPage_deleteButton:hover {
+	fill: #d3391d;
+}
+
+.CityPage p::first-letter {
+	text-transform: uppercase;
+}

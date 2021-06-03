@@ -1,0 +1,25 @@
+.CurrentCityWidget {
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	position: relative;
+}
+.CurrentCityWidget_addButton {
+	position: absolute;
+	top: 3rem;
+	right: 2rem;
+	box-shadow: 1px 1px 2px rgb(121, 159, 190);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.CurrentCityWidget_addButton_icon {
+	display: block;
+}
+.CurrentCityWidget_weatherInfo {
+	font-weight: bold;
+}
+.CurrentCityWidget_weatherInfo::first-letter {
+	text-transform: uppercase;
+	margin-bottom: 0;
+}

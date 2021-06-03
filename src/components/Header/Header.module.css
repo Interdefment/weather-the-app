@@ -1,0 +1,31 @@
+.Header_title {
+	font-size: 2rem;
+	display: block;
+	padding: 0 16px;
+	margin-right: 2rem;
+	color: #fff;
+}
+.Header_menuColumn {
+	margin-right: auto;
+}
+
+.Header_icon {
+	display: block;
+	fill: rgb(255, 255, 255);
+	transition: all 0.3s ease-out;
+	cursor: pointer;
+}
+
+.Header_icon:hover {
+	fill: #1890ff;
+}
+.Header_cityStatus {
+	padding: 16px;
+}
+
+@media only screen and (max-width: 1023px) {
+	.Header_title {
+		font-size: 1.5rem;
+		margin-right: 1.5rem;
+	}
+}

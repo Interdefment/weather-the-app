@@ -1,0 +1,48 @@
+@import '~antd/dist/antd.css';
+
+.BlueGradientBox {
+	background: linear-gradient(223deg, rgb(37, 145, 233), rgb(11, 102, 177));
+	color: #fff;
+	box-shadow: 1px 1px 4px rgb(1, 51, 92);
+	border-radius: 2px;
+	background-position: 0 0;
+	transition: all 0.3s linear;
+}
+.BlueGradientBox___hoverable:hover {
+	box-shadow: 1px 1px 6px rgb(3, 74, 133);
+	opacity: 0.95;
+}
+
+.ant-layout {
+	min-height: 100vh;
+}
+.ant-layout-content {
+	padding: 0 30px;
+}
+.ant-layout-header {
+	padding: 0 30px;
+	box-shadow: 0px 1px 2px #395670;
+}
+.ant-drawer-header {
+	background: #001529;
+	color: #fff;
+	border: 0;
+}
+.ant-drawer-body {
+	background: #001529;
+	color: #fff;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	:root {
+		font-size: 14px;
+	}
+	.ant-layout-header {
+		padding: 0 25px;
+	}
+	.ant-layout-content {
+		padding: 0 15px;
+	}
+}

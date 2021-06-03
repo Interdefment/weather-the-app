@@ -1,0 +1,6 @@
+.MapMarker_popover_text {
+	margin-bottom: 0.25rem;
+}
+.MapMarker_popover_text::first-letter {
+	text-transform: uppercase;
+}

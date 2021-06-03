@@ -1,0 +1,40 @@
+.WeatherTable_wrapper {
+	display: flex;
+}
+.WeatherTable {
+	max-width: 100%;
+	overflow-y: auto;
+	font-size: 1.15rem;
+	line-height: 1.3;
+	margin: 0 auto;
+}
+.WeatherTable_cell___title {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+.WeatherTable_row {
+	display: flex;
+}
+.WeatherTable_cell {
+	width: 6rem;
+	display: flex;
+	justify-content: center;
+	padding: 0.5rem 0.25rem;
+	text-align: center;
+	flex-shrink: 0;
+}
+.WeatherTable_cell img {
+	display: block;
+	width: 100%;
+	max-width: 50px;
+}
+.WeatherTable___vertical {
+	width: 24rem;
+}
+.WeatherTable___vertical .WeatherTable_row {
+	align-items: center;
+}
+.WeatherTable___vertical .WeatherTable_cell {
+	align-items: center;
+	flex-shrink: 1;
+}

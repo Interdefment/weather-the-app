@@ -1,0 +1,8 @@
+.SavedCitiesList_column {
+	display: 'flex';
+	flex-direction: 'column';
+}
+.SavedCitiesList_link {
+	display: 'flex';
+	flex-grow: 1;
+}

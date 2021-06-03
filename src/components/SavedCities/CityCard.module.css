@@ -1,0 +1,8 @@
+.CityCard {
+	width: 100%;
+	padding: 1rem;
+}
+.CityCard .CityCard_title {
+	color: inherit;
+	margin-bottom: 0;
+}

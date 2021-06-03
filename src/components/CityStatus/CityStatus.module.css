@@ -1,0 +1,36 @@
+.CityStatus {
+	display: flex;
+	align-items: center;
+	width: 256px;
+	justify-content: flex-end;
+}
+.CityStatus_icon {
+	display: block;
+	fill: rgba(255, 255, 255, 0.65);
+	stroke: rgba(255, 255, 255, 0.65);
+	transition: all 0.3s ease-out;
+	padding: 9px;
+	cursor: pointer;
+}
+.CityStatus_icon___lg {
+	padding: 6px;
+}
+.CityStatus_autocomplete {
+	flex-grow: 1;
+	display: block;
+}
+
+.CityStatus_text {
+	color: rgba(255, 255, 255, 0.65);
+	transition: all 0.3s ease-out;
+}
+
+.CityStatus:hover .CityStatus_icon {
+	fill: #ffffff;
+}
+.CityStatus:hover .CityStatus_icon:hover {
+	fill: #1890ff;
+}
+.CityStatus:hover .CityStatus_text {
+	color: rgba(255, 255, 255, 1);
+}
